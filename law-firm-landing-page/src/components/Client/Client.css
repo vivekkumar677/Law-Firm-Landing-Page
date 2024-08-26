@@ -1,0 +1,112 @@
+.clients-wrapper {
+    text-align: center;
+    width: 1235px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title h1 {
+    width: 374px;
+    height: 154px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.left-btn {
+    width: 90.6px;
+    height: 90.6px;
+    flex-shrink: 0;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    border: 1px solid var(--color-white);
+}
+
+.right-btn {
+    width: 90.6px;
+    height: 90.6px;
+    flex-shrink: 0;
+    background-color: #E3C748;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E3C748;
+}
+
+.client-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-data-wrapper {
+    width: 359px;
+    height: 368px;
+    border-radius: 14px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #1e1e1e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.client-img-container img {
+    width: 105px;
+    height: 102px;
+    border-radius: 105px;
+    background: lightgray -2.21px 0px / 102.105% 105.05% no-repeat;
+}
+
+.client-title h4 {
+	color:  #fff;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	margin-bottom: 7px;
+}
+
+.client-title p {
+	color: #fff;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.client-description p {
+	color: #fff;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%;
+	text-align: left;
+    opacity: 30%;
+}

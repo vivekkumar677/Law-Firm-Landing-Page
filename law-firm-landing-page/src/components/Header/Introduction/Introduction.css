@@ -1,0 +1,49 @@
+.introduction-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px;
+}
+
+.heading h1 {
+    color: #fff;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 87.22px;
+    width: 387px;
+    height: 174px;
+}
+
+.vertical-line {
+    height: 206px;
+    width: 1px;
+    background: #6a6a6a;
+
+}
+
+.intro h3 {
+    color: #fff;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 5px;
+    width: 249px;
+    height: 52px;
+    text-align: center;
+}
+
+.intro p {
+    color: var(--color-white, #fff);
+    font-family: Inter;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29.25px;
+    width: 475px;
+    height: 87px;
+    opacity: 30%;
+}

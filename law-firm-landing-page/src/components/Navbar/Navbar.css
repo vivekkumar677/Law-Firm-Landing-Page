@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: poppins, sans-serif;
+    margin: 30px;
+}
+
+.logo {
+    height: 34px;
+    width: 160px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 10px;
+
+}
+
+.links {
+    display: flex;
+    gap: 90px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+}
